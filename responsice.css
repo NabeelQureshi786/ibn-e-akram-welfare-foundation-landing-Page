@@ -1,0 +1,275 @@
+/* Media queries for responsive design */
+
+/* Mobile devices */
+@media only screen and (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    
+  
+    .mainHeading {
+      font-size: 40px;
+      margin-bottom: 5px;
+    }
+  
+    h2.subtitle {
+      font-size: 30px;
+      margin-bottom: 7px;
+    }
+  
+    .foundationLine {
+      font-size: 14px;
+    }
+  
+    .description p {
+       
+      font-family: 'Glacial Indifference', sans-serif;
+      font-size: 13px;
+      color:#fff;
+      opacity: 0.9;
+      box-sizing: border-box; 
+       margin-bottom: 7px; 
+       line-height: 18px;;
+      text-align:justify;
+      width: 280px;
+      /* padding-left: 22px; */
+    }
+    
+  
+    
+  
+    
+    .icons {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+      }
+      .sm a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        line-height: 35px;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 50%;
+        text-align: center;
+        margin-right: 8px;
+        padding: 4px;
+        margin: 5px;
+        background-color: rgba(0, 0, 0, 0.3);
+        transition: transform 0.2s ease-in-out;
+      }
+      .logo-container {
+        position: absolute;
+        top: -10px;
+        left: 0px;
+      }
+    .logo {
+
+        width: 130px;
+        height: auto;
+      }
+
+
+      .popup-content h2 {
+        margin-bottom: 10px;
+        color: #fff; /* Added text color */
+        font-size: 13px;
+        font-family: 'Siffonn Pro', sans-serif;
+      }
+      
+      .popup-content ul {
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 10px;
+      }
+      
+      .popup-content {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 50px; /* Increase the padding to create more space */
+        border-radius: 20px; /* Increase the border-radius for a rounded appearance */
+        width: 60%; /* Adjust the width as desired */
+        max-width: 500px; /* Set a maximum width to maintain responsiveness */
+        text-align: center;
+        position: absolute;
+        top: 68%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .popup-content li {
+        margin-bottom: 23px;
+        display: flex;
+        align-items: center;
+        font-size: 10px;
+        color: #fff; /* Added text color */
+        font-family: 'Siffonn Pro', sans-serif;
+      }
+      .bank-logo {
+        width: 39px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 30px; /* Add spacing between the logo and text */
+      }
+      .close-button {
+        font-size: 8px;
+      }
+
+
+      .shareBlessings {
+        font-family: 'Grimpt Rust', sans-serif;
+        font-size: 18px;
+        color: #fff;
+        opacity: 0.9;
+        position: absolute;
+        bottom: 10px;
+        right: 100px;
+        
+        font-weight: bold;
+      
+        color:goldenrod;
+      }
+   
+      h2.comingSoon 
+      {
+        width: 215px;
+        /* margin-top: 7px; */
+        font-size: 40px;
+        font-weight: bold;
+        /* padding: 10px px; */
+        margin-bottom: 10px;
+        
+       margin-left: 22px;
+      
+      }
+      .donateButton
+      {
+        width: 120px;
+        font-size: 11px;
+        padding:10 15px;
+
+      }
+      .popup-content {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 50px; /* Increase the padding to create more space */
+        border-radius: 60px; /* Increase the border-radius for a rounded appearance */
+        width: 95vw; /* Adjust the width as desired */
+        max-width: 650vw; /* Set a maximum width to maintain responsiveness */
+        text-align: center;
+        position: absolute;
+        top: 47%;
+        left: 50%;
+       
+        transform: translate(-50%, -50%);
+      }
+     
+      
+  }
+/*   
+  Tablets and smaller desktops  */
+   @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .mainHeading {
+      font-size: 70px;
+      margin-bottom: 10px;
+    }
+  
+    .subtitle {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+  
+    .foundationLine {
+      font-size: 24px;
+    }
+  
+    .description p {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  
+    .donateButton
+    {
+      width: 130px;
+      font-size: 13px;
+      padding:10 15px;
+
+    }
+  
+    .shareBlessings {
+      font-family: 'Grimpt Rust', sans-serif;
+      font-size: 15px;
+      color: #fff;
+      opacity: 0.9;
+      position: absolute;
+      bottom: 8px;
+      right: 80px;
+      font-weight: bold;
+      color: goldenrod;
+    }
+    .icons {
+      position: absolute;
+      bottom: 20px;
+      right: 18px;
+    }
+    
+    .sm a {
+      display: block;
+      width: 50px;
+      height: 50px;
+      line-height: 40px;
+      color: #fff;
+      font-size: 25px;
+      border-radius: 50%;
+      text-align: center;
+      margin-right: 10px;
+      padding: 4px;
+      margin: 6px;
+      background-color: rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s ease-in-out;
+    }
+    .popup-content {
+        background-color: rgba(0, 0, 0, 0.7);
+              /* Increase the padding to create more space */
+        border-radius: 60px; /* Increase the border-radius for a rounded appearance */
+        width: 70vw; /* Adjust the width as desired */
+        max-width: 600vw; /* Set a maximum width to maintain responsiveness */
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+       padding-right: 40px;
+      
+        transform: translate(-50%, -50%);
+      }
+    
+  }
+ 
+  /* @media only screen and (min-width: 1025px) {
+    .mainHeading {
+      font-size: 90px;
+      margin-bottom: 10px;
+    }
+  
+    .subtitle {
+      font-size: 45px;
+      margin-bottom: 15px;
+    }
+  
+    .foundationLine {
+      font-size: 30px;
+    }
+  
+    .description p {
+      font-size: 24px;
+    }
+  
+    .donateButton {
+      font-size: 26px;
+      padding: 15px 30px;
+    }
+  
+    .shareBlessings {
+      font-size: 18px;
+    }
+  } */
+ 

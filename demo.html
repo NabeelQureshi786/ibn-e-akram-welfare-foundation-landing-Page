@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" type="image/jpg" href="TGolden-Black (1).png" />
+  <title>Ibn e Akram</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <link href="https://fonts.googleapis.com/css2?family=Grimpt+Rust&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Glacial+Indifference&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" class="css">
+  <link rel="stylesheet" href="responsice.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="bg"></div>
+    <div class="logo-container">
+      <img src="mylogo.png" alt="Logo" class="logo">
+    </div>
+    <h2 class="comingSoon">Coming Soon</h2>
+    <h1 class="mainHeading">Ibn e Akram</h1>
+    <h2 class="subtitle">Welfare Foundation</h2>
+
+    <p class="foundationLine">Empowering Lives Through Charity</p>
+    <div class="description">
+
+      <p> Ibn e Akram, a leading welfare foundation dedicated to making a positive impact in communities. Our mission is
+        to uplift lives through acts of compassion and generosity. Join us in our journey to bring hope, support, and
+        sustainable change to those in need. Discover how your contributions can make a lasting difference. Donate now
+        and be a part of the Ibn e Akram legacy.</p>
+    </div>
+    <div class="buttonWrapper">
+      <button class="donateButton">Donate Now</button>
+    </div>
+    <div>
+      <p class="shareBlessings">#ShareYourBlessings</p>
+    </div>
+
+
+    <div class="icons">
+      <div class="sm">
+        <a href="https://facebook.com/ibneakramwf" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/company/ibneakramwf" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/ibneakramwf" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/ibneakramwf" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <h2>ACCOUNT <span style="color: goldenrod;">DETAILS<span></h2>
+        <ul>
+          <li>
+            <img id="Easypaisa" src="EP_White.png" alt="Easypaisa Logo" class="bank-logo">
+            <P class="acountDetails"><span class="bankAccount">Easypaisa</span><br>
+              <span>Account Title: </span> Malik Arbaz Akram<br><span>Account Number: </span> 03214388553<br>
+              <span>IBAN: </span> PK02TMFB0000000053668946<br>
+            </P>
+          </li>
+          <li>
+            <img src="Jazzcash_Orig.png" alt="JazzCash Logo" class="bank-logo">
+            <P class="acountDetails"><span class="bankAccount">Jazzcash</span><br>
+              <span>Account Title: </span> Malik Arbaz Akram<br>
+              <span>Account Number: </span> 03214388553 <br>
+              <span>IBAN: </span> PK89JCMA2812923214388553 <br>
+            </P>
+          </li>
+          <li>
+            <img src="Alfalah_White.png" alt="Alfalah Bank Logo" class="bank-logo">
+            <P class="acountDetails"><span class="bankAccount">Bank Alfalah</span><br>
+              <span>Account Title: </span> Malik Arbaz Akram <br>
+              <span>Account Number: </span> 55275001456366 <br>
+              <span>IBAN: </span> PK08ALFH5527005001456366 <br>
+            </P>
+          </li>
+          <li>
+            <img src="faysal-bank.png" alt="Mezan Bank Logo" class="bank-logo">
+            <P class="acountDetails">
+              <span class="bankAccount">Faysal Bank</span><br>
+              <span>Account Title: </span> Malik Arbaz Akram<br>
+              <span>Account Number: </span> 3349383000000739 <br>
+              <span>IBAN: </span> PK79FAYS3349383000000739 <br>
+            </P>
+          </li>
+        </ul>
+        <button class="close-button" id="close-button">Close</button>
+      </div>
+    </div>
+
+
+    <script>
+
+      const donateButton = document.querySelector(".donateButton");
+      const popup = document.getElementById("popup");
+      const closeButton = document.getElementById("close-button");
+
+      donateButton.addEventListener("click", () => {
+        popup.style.opacity = 1;
+        popup.style.pointerEvents = "auto";
+      });
+
+      closeButton.addEventListener("click", () => {
+        popup.style.opacity = 0;
+        popup.style.pointerEvents = "none";
+      });
+
+    </script>
+</body>
+
+</html>
